@@ -32,6 +32,17 @@
       "time": "11:00",
       "petsAllowed": false,
       "organizer": "Carey Wales"
+    },
+    {
+      "id": 5362917,
+      "category": "sustainability",
+      "title": "Community Tree Planting Day",
+      "description": "Help plant native trees and contribute to a greener future for our city.",
+      "location": "Central Park",
+      "date": "August 20, 2022",
+      "time": "08:00",
+      "petsAllowed": true,
+      "organizer": "Will Oakley"
     }
   ]
 }
