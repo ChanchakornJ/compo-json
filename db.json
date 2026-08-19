@@ -420,59 +420,8 @@
     }
   ]
 }
-  ],
-  
-  "courses": [
-    {
-      "id": 1,
-      "title": "Introduction to Artificial Intelligence",
-      "level": 1,
-      "description": "Learn the fundamental concepts of artificial intelligence and how AI is used in modern software engineering.",
-      "videoUrl": "/videos/ai-introduction.mp4",
-      "durationMinutes": 15,
-      "topics": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "AI Applications",
-        "AI in Software Engineering"
-      ],
-      "content": "Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making predictions, solving problems, and making decisions. AI systems use algorithms and data to identify patterns and produce useful outputs.\n\nMachine learning is one of the most important approaches to building AI systems. Instead of explicitly programming every rule, developers provide a machine learning system with data so that it can learn patterns from examples. For example, a software system can be trained using many examples of emails that are classified as spam or not spam. The trained model can then predict whether a new email is likely to be spam.\n\nAI is increasingly used in software engineering. Developers can use AI tools to assist with code generation, debugging, testing, documentation, and software analysis. However, software engineers still need to understand the problem, evaluate AI-generated results, and make appropriate engineering decisions. AI should therefore be considered a tool that supports software development rather than a complete replacement for software engineers."
-    },
-    {
-      "id": 2,
-      "title": "Machine Learning for Software Engineers",
-      "level": 2,
-      "description": "Learn the basic machine learning workflow, including datasets, features, training, testing, and model evaluation.",
-      "videoUrl": "/videos/machine-learning-for-software-engineers.mp4",
-      "durationMinutes": 25,
-      "topics": [
-        "Machine Learning",
-        "Training Data",
-        "Features and Labels",
-        "Training and Testing",
-        "Model Evaluation",
-        "Overfitting"
-      ],
-      "content": "Machine learning allows software systems to learn patterns from data and use those patterns to make predictions or decisions. A typical machine learning workflow begins with collecting and preparing data. The data is usually represented using features, which are input variables that the model uses to make predictions. In supervised learning, the training data also contains labels representing the expected output.\n\nDuring training, a machine learning algorithm adjusts the parameters of a model so that its predictions become closer to the expected results. After training, the model should be evaluated using data that it has not seen during training. This helps software engineers determine whether the model can generalize to new examples rather than simply memorizing the training data.\n\nOne common problem is overfitting. Overfitting occurs when a model learns the training data too closely and performs poorly on new data. Software engineers can reduce overfitting through techniques such as collecting more data, simplifying the model, using regularization, or carefully tuning model parameters. A good machine learning system therefore requires more than selecting an algorithm; it requires careful data preparation, evaluation, and monitoring."
-    },
-    {
-      "id": 3,
-      "title": "AI Engineering and Responsible AI",
-      "level": 3,
-      "description": "Explore how software engineers integrate AI models into applications while considering evaluation, reliability, security, and responsible AI practices.",
-      "videoUrl": "/videos/ai-engineering-responsible-ai.mp4",
-      "durationMinutes": 35,
-      "topics": [
-        "AI Engineering",
-        "AI Model Integration",
-        "Model Evaluation",
-        "Bias",
-        "AI Security",
-        "Responsible AI"
-      ],
-      "content": "Building an AI-powered application requires more than training a machine learning model. Software engineers must integrate the model into a larger software system and ensure that the system behaves reliably. This can involve designing APIs, managing model inputs and outputs, handling errors, monitoring performance, and controlling access to AI services.\n\nAI systems should also be evaluated using appropriate metrics and realistic test data. A model that performs well on a development dataset may still fail when users provide unexpected inputs. Engineers should therefore test different scenarios and continuously monitor the system after deployment. Important considerations include accuracy, reliability, response time, cost, and the consequences of incorrect predictions.\n\nResponsible AI is another important part of AI engineering. AI systems can produce biased, inaccurate, or misleading results depending on their training data and design. Software engineers should consider issues such as fairness, privacy, security, transparency, and human oversight. For example, an AI system used to support important decisions should provide appropriate safeguards and should not blindly make decisions without considering the potential impact on users.\n\nA successful AI software system combines machine learning knowledge with traditional software engineering practices. Engineers need to understand both the capabilities and limitations of AI so they can build systems that are useful, maintainable, secure, and responsible."
-    }
   ]
+  
 }
   
 
