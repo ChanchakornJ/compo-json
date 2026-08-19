@@ -68,39 +68,412 @@
     }
   ],
 
-  "students": [
-     {
-    "id": 1,
-    "studentId": "SE-001",
-    "name": "Prayuth",
-    "surname": "The minister",
-    "gpa": 3.59,
-    "image": "https://firebasestorage.googleapis.com/v0/b/publicimage-41deb.appspot.com/o/tu.jpg?alt=media&token=171d65d0-8e8d-45d2-81db-021836316e02",
-    "penAmount": 15,
-    "description": "The great man ever!!!!"
-  },
-  {
-    "id": 2,
-    "studentId": "SE-002",
-    "name": "Cherprang ",
-    "surname": "BNK48",
-    "gpa": 4.01,
-    "image": "https://firebasestorage.googleapis.com/v0/b/publicimage-41deb.appspot.com/o/cherprang.png?alt=media&token=e6639e24-e84c-4246-ab0e-8b7977b57f4f",
-    "penAmount": 2,
-    "description": "Code for Thailand"
-  },
-  {
-    "id": 3,
-    "studentId": "SE-003",
-    "name": "Nobi",
-    "surname": "Nobita",
-    "gpa": 1.77,
-    "image": "https://firebasestorage.googleapis.com/v0/b/publicimage-41deb.appspot.com/o/Nobita.png?alt=media&token=5ac97e03-40c4-47b0-8ad9-f5b52410fe37",
-    "penAmount": 0,
-    "description": "Welcome to Olympic"
-  }
+  "exams": [
+    {
+  "id": 1,
+  "title": "Exam 1",
+  "level": 1,
+  "questions": [
+    {
+      "id": 101,
+      "text": "What does AI stand for?",
+      "options": [
+        { "key": "A", "label": "Automated Information" },
+        { "key": "B", "label": "Artificial Intelligence" },
+        { "key": "C", "label": "Advanced Internet" },
+        { "key": "D", "label": "Automatic Integration" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 102,
+      "text": "What is machine learning?",
+      "options": [
+        { "key": "A", "label": "A way to repair computers" },
+        { "key": "B", "label": "A method where computers learn patterns from data" },
+        { "key": "C", "label": "A programming language" },
+        { "key": "D", "label": "A type of computer hardware" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 103,
+      "text": "What is data used for in machine learning?",
+      "options": [
+        { "key": "A", "label": "To train and evaluate models" },
+        { "key": "B", "label": "To increase screen brightness" },
+        { "key": "C", "label": "To replace computer hardware" },
+        { "key": "D", "label": "To connect a computer to Wi-Fi" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 104,
+      "text": "Which of the following is an example of AI?",
+      "options": [
+        { "key": "A", "label": "A basic calculator performing 2 + 2" },
+        { "key": "B", "label": "A recommendation system suggesting movies" },
+        { "key": "C", "label": "A USB cable" },
+        { "key": "D", "label": "A computer keyboard" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 105,
+      "text": "What is a machine learning model?",
+      "options": [
+        { "key": "A", "label": "A physical computer" },
+        { "key": "B", "label": "A system trained to make predictions or decisions from data" },
+        { "key": "C", "label": "A database table" },
+        { "key": "D", "label": "A computer monitor" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 106,
+      "text": "What is supervised learning?",
+      "options": [
+        { "key": "A", "label": "Learning from labeled data" },
+        { "key": "B", "label": "Learning without any data" },
+        { "key": "C", "label": "Learning only from humans directly" },
+        { "key": "D", "label": "Learning by changing computer hardware" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 107,
+      "text": "What is the purpose of training a machine learning model?",
+      "options": [
+        { "key": "A", "label": "To teach the model patterns in data" },
+        { "key": "B", "label": "To make the computer physically faster" },
+        { "key": "C", "label": "To increase storage capacity" },
+        { "key": "D", "label": "To install an operating system" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 108,
+      "text": "Which of the following is an example of supervised learning?",
+      "options": [
+        { "key": "A", "label": "Grouping customers without predefined categories" },
+        { "key": "B", "label": "Predicting house prices using labeled examples" },
+        { "key": "C", "label": "Randomly generating numbers" },
+        { "key": "D", "label": "Compressing a file" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 109,
+      "text": "What is a prediction in machine learning?",
+      "options": [
+        { "key": "A", "label": "A guess or output produced by a trained model" },
+        { "key": "B", "label": "A type of computer virus" },
+        { "key": "C", "label": "A database backup" },
+        { "key": "D", "label": "A programming error" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 110,
+      "text": "Why is it important to use good-quality data when training an AI model?",
+      "options": [
+        { "key": "A", "label": "Good data can help the model make more reliable predictions" },
+        { "key": "B", "label": "It makes the computer screen brighter" },
+        { "key": "C", "label": "It removes the need for testing" },
+        { "key": "D", "label": "It makes every prediction automatically correct" }
+      ],
+      "correctAnswer": "A"
+    }
   ]
-
+},
+{
+  "id": 2,
+  "title": "Exam 2",
+  "level": 2,
+  "questions": [
+    {
+      "id": 201,
+      "text": "What is the main difference between classification and regression in machine learning?",
+      "options": [
+        { "key": "A", "label": "Classification predicts categories, while regression predicts continuous values" },
+        { "key": "B", "label": "Classification uses no data, while regression uses data" },
+        { "key": "C", "label": "Classification is only used for images, while regression is only used for text" },
+        { "key": "D", "label": "Classification is always unsupervised, while regression is always supervised" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 202,
+      "text": "What is overfitting in machine learning?",
+      "options": [
+        { "key": "A", "label": "When a model performs poorly on both training and test data" },
+        { "key": "B", "label": "When a model learns the training data too closely and performs poorly on new data" },
+        { "key": "C", "label": "When a model does not receive enough data to train" },
+        { "key": "D", "label": "When a model produces exactly the same prediction every time" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 203,
+      "text": "Why is a dataset commonly divided into training and testing sets?",
+      "options": [
+        { "key": "A", "label": "To make the dataset larger" },
+        { "key": "B", "label": "To train the model and then evaluate how well it works on unseen data" },
+        { "key": "C", "label": "To remove all incorrect data" },
+        { "key": "D", "label": "To allow the model to train twice" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 204,
+      "text": "What does accuracy measure in a classification model?",
+      "options": [
+        { "key": "A", "label": "The percentage of predictions that are correct" },
+        { "key": "B", "label": "The number of features in the dataset" },
+        { "key": "C", "label": "The amount of training time" },
+        { "key": "D", "label": "The size of the neural network" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 205,
+      "text": "What is a feature in a machine learning dataset?",
+      "options": [
+        { "key": "A", "label": "The final prediction made by the model" },
+        { "key": "B", "label": "An input variable used by the model to make predictions" },
+        { "key": "C", "label": "A type of machine learning algorithm" },
+        { "key": "D", "label": "The error produced after training" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 206,
+      "text": "What is the purpose of a validation dataset?",
+      "options": [
+        { "key": "A", "label": "To permanently store the trained model" },
+        { "key": "B", "label": "To help tune model settings and compare model configurations during development" },
+        { "key": "C", "label": "To replace the training dataset completely" },
+        { "key": "D", "label": "To guarantee that the model has no errors" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 207,
+      "text": "What is unsupervised learning mainly used for?",
+      "options": [
+        { "key": "A", "label": "Learning from data that already has correct labels" },
+        { "key": "B", "label": "Finding patterns or groups in data without predefined labels" },
+        { "key": "C", "label": "Testing whether a computer is connected to the internet" },
+        { "key": "D", "label": "Manually labeling every data point" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 208,
+      "text": "What is clustering in machine learning?",
+      "options": [
+        { "key": "A", "label": "Grouping similar data points together" },
+        { "key": "B", "label": "Predicting a numerical value from labeled data" },
+        { "key": "C", "label": "Removing all data from a dataset" },
+        { "key": "D", "label": "Converting text into programming code" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 209,
+      "text": "Why should input features sometimes be normalized or standardized before training a model?",
+      "options": [
+        { "key": "A", "label": "To ensure features with different scales are handled more appropriately by some algorithms" },
+        { "key": "B", "label": "To remove the need for training data" },
+        { "key": "C", "label": "To guarantee 100% prediction accuracy" },
+        { "key": "D", "label": "To convert supervised learning into unsupervised learning" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 210,
+      "text": "A model has 98% accuracy on training data but only 65% accuracy on test data. What is the most likely explanation?",
+      "options": [
+        { "key": "A", "label": "The model is underfitting" },
+        { "key": "B", "label": "The model is overfitting" },
+        { "key": "C", "label": "The model has no training data" },
+        { "key": "D", "label": "The model is performing perfectly" }
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+},
+{
+  "id": 3,
+  "title": "Exam 3",
+  "level": 3,
+  "questions": [
+    {
+      "id": 301,
+      "text": "What is the main purpose of a loss function in machine learning?",
+      "options": [
+        { "key": "A", "label": "To measure how different the model's predictions are from the expected results" },
+        { "key": "B", "label": "To increase the amount of training data" },
+        { "key": "C", "label": "To remove unnecessary features automatically" },
+        { "key": "D", "label": "To determine how much storage the model requires" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 302,
+      "text": "What does gradient descent attempt to do during model training?",
+      "options": [
+        { "key": "A", "label": "Increase the number of features in the dataset" },
+        { "key": "B", "label": "Find model parameters that minimize the loss function" },
+        { "key": "C", "label": "Remove the testing dataset" },
+        { "key": "D", "label": "Convert an unsupervised problem into a supervised problem" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 303,
+      "text": "What is the learning rate in a machine learning algorithm?",
+      "options": [
+        { "key": "A", "label": "The percentage of correct predictions made by the model" },
+        { "key": "B", "label": "The amount of training data used by the model" },
+        { "key": "C", "label": "A parameter that controls how large each optimization step is" },
+        { "key": "D", "label": "The number of layers in a neural network" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 304,
+      "text": "What can happen if the learning rate is set too high?",
+      "options": [
+        { "key": "A", "label": "Training may become unstable or fail to reach a good solution" },
+        { "key": "B", "label": "The model will always achieve 100% accuracy" },
+        { "key": "C", "label": "The dataset will automatically become larger" },
+        { "key": "D", "label": "The model will require no training" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 305,
+      "text": "What is precision in a binary classification problem?",
+      "options": [
+        { "key": "A", "label": "The proportion of actual positives that were correctly identified" },
+        { "key": "B", "label": "The proportion of predicted positives that were actually positive" },
+        { "key": "C", "label": "The proportion of all predictions that were incorrect" },
+        { "key": "D", "label": "The total number of predictions made by the model" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 306,
+      "text": "What is recall designed to measure?",
+      "options": [
+        { "key": "A", "label": "How many predicted positives are actually positive" },
+        { "key": "B", "label": "How many actual positive cases the model correctly identifies" },
+        { "key": "C", "label": "How quickly the model finishes training" },
+        { "key": "D", "label": "How many features are used by the model" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 307,
+      "text": "Why can accuracy be misleading when evaluating a highly imbalanced dataset?",
+      "options": [
+        { "key": "A", "label": "Accuracy cannot be calculated for classification problems" },
+        { "key": "B", "label": "A model can achieve high accuracy by mostly predicting the majority class while performing poorly on the minority class" },
+        { "key": "C", "label": "Accuracy only works with regression models" },
+        { "key": "D", "label": "Accuracy always decreases when the dataset becomes larger" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 308,
+      "text": "What is the main purpose of regularization?",
+      "options": [
+        { "key": "A", "label": "To reduce overfitting by discouraging overly complex models" },
+        { "key": "B", "label": "To increase the number of training examples" },
+        { "key": "C", "label": "To guarantee that all predictions are correct" },
+        { "key": "D", "label": "To remove the need for a test dataset" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 309,
+      "text": "What is the bias-variance tradeoff?",
+      "options": [
+        { "key": "A", "label": "The tradeoff between training speed and storage space" },
+        { "key": "B", "label": "The balance between errors caused by overly simple assumptions and errors caused by excessive sensitivity to training data" },
+        { "key": "C", "label": "The difference between supervised and unsupervised learning" },
+        { "key": "D", "label": "The difference between training and testing datasets" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 310,
+      "text": "A model performs poorly on both its training and test datasets. Which problem is most likely occurring?",
+      "options": [
+        { "key": "A", "label": "Overfitting" },
+        { "key": "B", "label": "Underfitting" },
+        { "key": "C", "label": "Data leakage" },
+        { "key": "D", "label": "Class imbalance" }
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}
+  ],
+  
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Artificial Intelligence",
+      "level": 1,
+      "description": "Learn the fundamental concepts of artificial intelligence and how AI is used in modern software engineering.",
+      "videoUrl": "/videos/ai-introduction.mp4",
+      "durationMinutes": 15,
+      "topics": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "AI Applications",
+        "AI in Software Engineering"
+      ],
+      "content": "Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, making predictions, solving problems, and making decisions. AI systems use algorithms and data to identify patterns and produce useful outputs.\n\nMachine learning is one of the most important approaches to building AI systems. Instead of explicitly programming every rule, developers provide a machine learning system with data so that it can learn patterns from examples. For example, a software system can be trained using many examples of emails that are classified as spam or not spam. The trained model can then predict whether a new email is likely to be spam.\n\nAI is increasingly used in software engineering. Developers can use AI tools to assist with code generation, debugging, testing, documentation, and software analysis. However, software engineers still need to understand the problem, evaluate AI-generated results, and make appropriate engineering decisions. AI should therefore be considered a tool that supports software development rather than a complete replacement for software engineers."
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning for Software Engineers",
+      "level": 2,
+      "description": "Learn the basic machine learning workflow, including datasets, features, training, testing, and model evaluation.",
+      "videoUrl": "/videos/machine-learning-for-software-engineers.mp4",
+      "durationMinutes": 25,
+      "topics": [
+        "Machine Learning",
+        "Training Data",
+        "Features and Labels",
+        "Training and Testing",
+        "Model Evaluation",
+        "Overfitting"
+      ],
+      "content": "Machine learning allows software systems to learn patterns from data and use those patterns to make predictions or decisions. A typical machine learning workflow begins with collecting and preparing data. The data is usually represented using features, which are input variables that the model uses to make predictions. In supervised learning, the training data also contains labels representing the expected output.\n\nDuring training, a machine learning algorithm adjusts the parameters of a model so that its predictions become closer to the expected results. After training, the model should be evaluated using data that it has not seen during training. This helps software engineers determine whether the model can generalize to new examples rather than simply memorizing the training data.\n\nOne common problem is overfitting. Overfitting occurs when a model learns the training data too closely and performs poorly on new data. Software engineers can reduce overfitting through techniques such as collecting more data, simplifying the model, using regularization, or carefully tuning model parameters. A good machine learning system therefore requires more than selecting an algorithm; it requires careful data preparation, evaluation, and monitoring."
+    },
+    {
+      "id": 3,
+      "title": "AI Engineering and Responsible AI",
+      "level": 3,
+      "description": "Explore how software engineers integrate AI models into applications while considering evaluation, reliability, security, and responsible AI practices.",
+      "videoUrl": "/videos/ai-engineering-responsible-ai.mp4",
+      "durationMinutes": 35,
+      "topics": [
+        "AI Engineering",
+        "AI Model Integration",
+        "Model Evaluation",
+        "Bias",
+        "AI Security",
+        "Responsible AI"
+      ],
+      "content": "Building an AI-powered application requires more than training a machine learning model. Software engineers must integrate the model into a larger software system and ensure that the system behaves reliably. This can involve designing APIs, managing model inputs and outputs, handling errors, monitoring performance, and controlling access to AI services.\n\nAI systems should also be evaluated using appropriate metrics and realistic test data. A model that performs well on a development dataset may still fail when users provide unexpected inputs. Engineers should therefore test different scenarios and continuously monitor the system after deployment. Important considerations include accuracy, reliability, response time, cost, and the consequences of incorrect predictions.\n\nResponsible AI is another important part of AI engineering. AI systems can produce biased, inaccurate, or misleading results depending on their training data and design. Software engineers should consider issues such as fairness, privacy, security, transparency, and human oversight. For example, an AI system used to support important decisions should provide appropriate safeguards and should not blindly make decisions without considering the potential impact on users.\n\nA successful AI software system combines machine learning knowledge with traditional software engineering practices. Engineers need to understand both the capabilities and limitations of AI so they can build systems that are useful, maintainable, secure, and responsible."
+    }
+  ]
+}
   
 
-}
+
