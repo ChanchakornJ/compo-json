@@ -67,63 +67,69 @@
       "organizer": "Brody Kill"
     }
   ],
-  "users": 
-    [
+  "users": [
   {
     "id": 1,
     "username": "user1",
     "role": "user",
     "level": 1,
-    "email": "alice.dev@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=1"
+    "email": "akaashi.dev@example.com",
+    "userprofile": "/images/profile/user1.jpg",
+    "country": "Thailand"
   },
   {
     "id": 2,
     "username": "user2",
     "role": "user",
     "level": 2,
-    "email": "bob.smith@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=2"
+    "email": "hinata@example.com",
+    "userprofile": "/images/profile/user2.jpg",
+    "country": "United States"
   },
   {
     "id": 3,
-    "username": "user3",
+    "username": "usagi",
     "role": "user",
     "level": 3,
     "email": "charlie.ai@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=3"
+    "userprofile": "/images/profile/usagi.jpeg",
+    "country": "Japan"
   },
   {
     "id": 4,
-    "username": "diana_code",
+    "username": "bamby",
     "role": "user",
     "level": 4,
-    "email": "diana.code@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=4"
+    "email": "bambambyby@example.com",
+    "userprofile": "/images/profile/bamby.jpg",
+    "country": "United Kingdom"
   },
   {
     "id": 5,
-    "username": "ethan_dev",
+    "username": "xielian",
     "role": "user",
     "level": 2,
-    "email": "ethan.dev@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=5"
+    "email": "xielian@example.com",
+    "userprofile": "/images/profile/xielian.jpeg",
+    "country": "Singapore"
   },
   {
     "id": 6,
-    "username": "fiona_ml",
+    "username": "oikawa",
     "role": "user",
     "level": 1,
     "email": "fiona.ml@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=6"
+    "userprofile": "/images/profile/oikawa.jpeg",
+    "country": "Canada"
   },
   {
     "id": 7,
-    "username": "george_tech",
+    "username": "kageyama",
     "role": "user",
     "level": 3,
     "email": "george.tech@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=7"
+    "userprofile": "/images/profile/kageyama.jpeg",
+    "country": "Germany"
   },
   {
     "id": 8,
@@ -131,25 +137,30 @@
     "role": "admin",
     "level": 0,
     "email": "admin@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=8"
+    "userprofile": "/images/profile/admin.jpg",
+    "country": "Thailand"
   },
   {
     "id": 9,
-    "username": "hannah_web",
+    "username": "aizawa",
     "role": "user",
     "level": 2,
     "email": "hannah.web@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=9"
+    "userprofile": "/images/profile/aizawa.jpg",
+    "country": "Australia"
+    
   },
   {
     "id": 10,
-    "username": "ivan_ai",
+    "username": "isagi",
     "role": "user",
     "level": 4,
     "email": "ivan.ai@example.com",
-    "userprofile": "https://i.pravatar.cc/150?img=10"
+    "userprofile": "/images/profile/isagi.jpg",
+    "country": "South Korea"
   }
 ]
+
   
 
   
